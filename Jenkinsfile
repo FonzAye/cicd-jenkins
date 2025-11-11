@@ -10,6 +10,8 @@ pipeline {
         stage('build') {
             steps {
                 sh '''
+                  echo "Installing git..."
+                  apk add --no-cache git
                   echo "Python version:"
                   python --version
                   echo "Project name: $YOUR_PROJECT_NAME"
