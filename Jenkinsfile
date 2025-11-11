@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'my-python-with-git' } }
+    agent { docker { image 'fonzaye/nebo:1' } }
 
     environment {
         YOUR_PROJECT_NAME = 'test'
