@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'python:3.14.0-alpine3.22' } }
+    agent { docker { image 'my-python-with-git' } }
 
     environment {
         YOUR_PROJECT_NAME = 'test'
