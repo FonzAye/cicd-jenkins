@@ -14,6 +14,7 @@ pipeline {
                   python --version
                   echo "Project name: $YOUR_PROJECT_NAME"
                   echo "Main package: $YOUR_MAIN_PACKAGE_NAME"
+                  ls -a
                   echo "Cloning sample Python app:"
                   git clone https://github.com/FonzAye/nebo-python-app.git
                   rm -rf nebo-python-app/.git/
