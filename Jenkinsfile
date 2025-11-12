@@ -22,7 +22,6 @@ pipeline {
                   rm -rf nebo-python-app/.git/
                   echo "Rename the project directory and the main package directory."
                   mv nebo-python-app $YOUR_PROJECT_NAME && cd $YOUR_PROJECT_NAME
-                  mv main_test $YOUR_MAIN_PACKAGE_NAME
                   echo "starting app"
                   pip install -e .
                   nebo-sample-app
