@@ -16,7 +16,7 @@ pipeline {
                   echo "Main package: $YOUR_MAIN_PACKAGE_NAME"
                   ls -a
                   rm -rf nebo-python-app
-                  rm-rf test
+                  rm -rf test
                   echo "Cloning sample Python app:"
                   git clone https://github.com/FonzAye/nebo-python-app.git
                   rm -rf nebo-python-app/.git/
